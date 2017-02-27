@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleVisualizerFFTView">
+		<attr name ="cake_degree" format="integer"/>
+		<attr name ="cake_color" format="color"/>
+		<attr name ="padding_offset" format="dimension"/>
+	</declare-styleable>
+</resources>

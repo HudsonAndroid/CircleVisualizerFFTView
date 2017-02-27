@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hudson="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_view9"
+    tools:context="com.hudson.circlemusicexample.MainActivity">
+
+    <com.hudson.circlevisualizerfftview.CircleVisualizerFFTView
+        android:id="@+id/fft"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+    />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="播放"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fft"
+        android:text="MUSIC PLAYING:visiable music view created by hudson"
+        android:gravity="center"
+        android:textColor="#00ff00"/>
+</RelativeLayout>
